@@ -92,9 +92,9 @@ function App() {
       {loading ? (
         <Loading />
       ) : (
-        <div className="w-full h-screen flex flex-col items-center p-8 space-y-6" style={{background: "radial-gradient(ellipse at bottom, #2a1b35 0%, #090a0f 100%)"}}>
-          <h1 className="text-5xl font-bold mb-1 text-zinc-200">SOL Faucet🪙</h1>
-          <h2 className="text-md text-gray-200 lg:text-lg">Premium faucet for Solana Devnet & Testnet</h2>
+        <div className="w-full h-full flex flex-col items-center p-8 space-y-6" style={{background: "radial-gradient(ellipse at bottom, #2a1b35 0%, #090a0f 100%)"}}>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-1 text-zinc-200">SOL Faucet🪙</h1>
+          <h2 className="text-md text-center text-gray-200 lg:text-lg">Premium faucet for Solana Devnet & Testnet</h2>
           <Card className="w-full max-w-lg shadow-lg bg-transparent">
             <CardHeader>
               <CardTitle className="text-2xl font-bold text-zinc-200">Request Airdrop</CardTitle>
@@ -154,7 +154,7 @@ function App() {
             <p className="text-md text-gray-400 mb-2 max-sm:mb-6">
               This tool is designed for development purposes and does not distribute mainnet SOL or Solana Tokens.
             </p>
-            <p className="text-sm text-gray-400">Made with ❤️ by <a target="_blank" className="text-gray-300 hover:text-gray-200 hover:underline" href="https://github.com/jay-madane">@jay-madane</a></p>
+            <p className="text-sm text-gray-400 mb-10">Made with ❤️ by <a target="_blank" className="text-gray-300 hover:text-gray-200 hover:underline" href="https://github.com/jay-madane">@jay-madane</a></p>
           </footer>
         </div>
       )}
