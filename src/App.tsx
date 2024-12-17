@@ -51,7 +51,7 @@ function App() {
 
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:3000/airdrop", {
+      const response = await fetch("https://faucet-server-jaymadane.vercel.app/airdrop", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
